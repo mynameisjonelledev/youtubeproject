@@ -65,12 +65,15 @@ body {
 .projects-image {
     width: 500px;
     border-radius: 5px;
+    margin-bottom: 0;
+    object-fit: contain;
    
 }
 
 .projects-image-container {
     border-radius: 10px;
     margin-left: 30px;
+    margin-bottom: 0;
 }
 
 .projects-main-container {
