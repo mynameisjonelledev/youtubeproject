@@ -1,0 +1,64 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(to right,#295270,#524175);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 100;
+}
+
+.header-name {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 240px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 900px;
+    color: #fcc1cf;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.15s;
+}
+
+.header-name:hover {
+    color: white;
+}
+
+.header-menu1, .header-menu2, .header-menu3, .header-menu4  {
+    width: 100px;
+    max-width: 100px;
+    flex-shrink: 0;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+.header-menu1:hover, .header-menu3:hover, .header-menu4:hover  {
+    opacity: 0.7;
+    font-weight: bold;
+    color: #fcc1cf;
+}
+
+.header-menu2 {
+    border: solid black;
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    background-color: #fcc1cf;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+
