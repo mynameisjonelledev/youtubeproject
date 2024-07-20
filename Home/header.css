@@ -61,4 +61,11 @@
     border-style: dotted;
 }
 
+@media (max-width:768px)  {
+    .header-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
