@@ -61,8 +61,15 @@ body {
     margin-bottom: 20px;
 }
 
-@media (min-width:480px) {
+@media (max-width:768px) {
+    .upper-body-main-container {
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     body {
-    width:480px;
-}
+        background-image: linear-gradient(to bottom right, #9d80cb, #f7c2e6);
+    }
 }
