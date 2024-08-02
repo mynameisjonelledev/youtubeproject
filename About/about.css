@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Roboto;
+    background-image: url("/pexels-jackerkun-14478408.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+    background-color: #012840;
+    color: white;
+
+    position: relative;
+
+    
+}
+
+/*  Gray color for body : color: rgb(177, 174, 174); */
+/* Background image from https://generator.ui.glass*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+
+@media (min-width:966px) { /* FOR DESKTOP PC*/
+   .header-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-left-container {
+    background-color: lightblue;
+    width: 300px;
+}
+
+.header-middle-container {
+    background-color: tomato;
+    flex: 1; 
+}
+
+.header-right-container {
+    background-color: brown;
+    width: 300px;
+}
+
+/*MAKE THE HEADER SHOW AFTER THE LOGIN OR WELCOME SCREEN*/
+
+.about-me-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.about-me-left-container {
+    
+    width: 400px;
+}
+
+.about-me-middle-container {
+    flex: 1;
+    flex-shrink: 1;
+    
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(1, 40, 64, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.about-me-right-container {
+    
+    width: 400px;
+}
+
+.middle-main-image {
+    width: 350px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.middle-main-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-main-text {
+    text-align: center;
+}
+
+.front-page-links-main {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.front-page-middle-button-image-link {
+    width: 25px;
+}
+
+.front-page-middle-button-text-link {
+    font-size: 15px;
+}
+
+front-page-links-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.front-page-middle-button-container-links {
+    padding: 5px;
+    border-radius: 5px;
+
+    width: 100px;
+
+    transition: background-color 0.15s;
+}
+
+.front-page-middle-button-container-links:hover {
+    background-color: #00081B;
+    cursor: pointer;
+}
+
+.front-page-middle-button-container-links:active {
+    opacity: 0.5;
+}
+
+}
